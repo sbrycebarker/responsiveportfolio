@@ -191,10 +191,11 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-gap: 15px;
+  grid-template-columns: repeat(8, 1fr); }
   .projects img {
     width: 100%;
+    height: auto;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;

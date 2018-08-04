@@ -114,12 +114,13 @@ main {
 }
 // work/projects
 .projects {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  display: grid ;
+  grid-gap: 15px;
+  grid-template-columns: repeat(8, 1fr);
 
   img {
     width: 100%;
+    height: auto;
     border: 3px #fff solid;
 
     &:hover {
