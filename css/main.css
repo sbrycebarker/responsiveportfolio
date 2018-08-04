@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #000;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180); }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #211f24;
+    background: #f2f2f2;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #2D2B32;
+    background: #FFF;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -73,7 +73,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -95,9 +95,9 @@
   box-sizing: border-box; }
 
 body {
-  background: #2D2B32;
+  background: #FFF;
   background-position: center;
-  color: #fff;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -114,7 +114,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(45, 43, 50, 0.9); }
+      background: rgba(255, 255, 255, 0.9); }
 
 h1,
 h2,
@@ -130,10 +130,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(50, 48, 55, 0.5); }
+    background: rgba(255, 255, 255, 0.5); }
 
 a {
-  color: #fff;
+  color: gold;
   text-decoration: none; }
 
 header {
@@ -185,7 +185,7 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #393740;
+  background: white;
   padding: .5rem;
   border-bottom: #ff2800 3px solid; }
 
@@ -209,7 +209,7 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px #333 solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
@@ -231,18 +231,18 @@ main {
     color: #000; }
 
 .btn-dark {
-  background: black;
+  background: gray;
   color: #fff; }
 
 .btn-light {
-  background: #aba8b4;
+  background: white;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #141317;
-  color: #fff;
+  background: #e6e6e6;
+  color: #000;
   height: 60px;
   bottom: 0; }
 
