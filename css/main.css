@@ -194,16 +194,18 @@ main {
   grid-gap: 15px;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
-  text-align: center; }
+  text-align: center;
+  box-sizing: border-box; }
   .projects img {
     width: 100%;
     height: auto;
-    border: 3px #fff solid;
-    z-index: 10; }
+    border: 4px #fff solid;
+    box-sizing: border-box; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #ff2800;
-      transition: all 0.5s ease-out; }
+      transition: all 0.5s ease-out;
+      box-sizing: border-box; }
   .projects .details {
     width: 100%;
     display: none;
