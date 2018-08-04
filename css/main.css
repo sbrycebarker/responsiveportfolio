@@ -185,7 +185,7 @@ main {
   grid-area: job3; }
 
 .job {
-  background: white;
+  background: #f2f2f2;
   padding: .5rem;
   border-bottom: #ff2800 3px solid; }
 
@@ -207,6 +207,8 @@ main {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1rem; }
+  .boxes a {
+    color: #000; }
   .boxes div {
     font-size: 2rem;
     border: 3px #333 solid;
@@ -290,4 +292,6 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes {
+    font-size: 10px; } }
