@@ -128,7 +128,7 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     padding: 0.2rem 1rem;
     background: rgba(255, 255, 255, 0.5); }
 
@@ -188,6 +188,9 @@ main {
   background: #f2f2f2;
   padding: .5rem;
   border-bottom: #ff2800 3px solid; }
+
+.work-cat {
+  margin: 50px 0; }
 
 .projects {
   display: grid;

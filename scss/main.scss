@@ -27,7 +27,7 @@ h3 {
   }
 
   &.sm-heading {
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
@@ -113,6 +113,10 @@ main {
   border-bottom: $secondary-color 3px solid
 }
 // work/projects
+.work-cat {
+  margin: 50px 0;
+}
+
 .projects {
   display: grid;
   grid-gap: 15px;
