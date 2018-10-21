@@ -192,31 +192,40 @@ main {
 .work-cat {
   margin: 50px 0; }
 
+.free-work {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: black; }
+
 .projects {
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
   text-align: center;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  z-index: 5; }
   .projects img {
     width: 100%;
     height: auto;
     border: 4px #fff solid;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    position: relative;
+    z-index: 5; }
     .projects img:hover {
-      opacity: 0.5;
-      border-color: #ff2800;
+      opacity: 0.8;
+      border-color: black;
       transition: all 0.5s ease-out;
       box-sizing: border-box; }
   .projects .details {
     width: 100%;
-    display: none;
+    height: 100%;
+    box-sizing: border-box;
     position: relative;
-    z-index: -10;
-    background-color: black;
-    height: auto;
-    transition: all 0.5s ease-out; }
+    z-index: -5;
+    border: 1px solid black;
+    color: black; }
 
 .boxes {
   display: flex;

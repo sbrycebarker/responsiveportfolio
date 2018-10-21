@@ -117,6 +117,13 @@ main {
   margin: 50px 0;
 }
 
+.free-work {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: black
+}
+
 .projects {
   display: grid;
   grid-gap: 15px;
@@ -124,30 +131,32 @@ main {
   position: relative;
   text-align: center;
   box-sizing: border-box;
+  z-index: 5;
 
   img {
     width: 100%;
     height: auto;
     border: 4px #fff solid;
     box-sizing: border-box;
+    position: relative;
+    z-index: 5;
 
     &:hover {
-      opacity: 0.5;
-      border-color: $secondary-color;
+      opacity: 0.8;
+      border-color: black;
       @include easeOut;
       box-sizing: border-box;
     }
   }
 
   .details {
-    // height: 100%;
     width: 100%;
-    display: none;
+    height: 100%;
+    box-sizing: border-box;
     position: relative;
-    z-index: -10;
-    background-color: black;
-    height: auto;
-    @include easeOut
+    z-index: -5;
+    border: 1px solid black;
+    color: black;
   }
 }
 
