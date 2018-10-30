@@ -131,7 +131,6 @@ main {
   position: relative;
   text-align: center;
   box-sizing: border-box;
-  z-index: 5;
 
   img {
     width: 100%;
@@ -139,7 +138,6 @@ main {
     border: 4px #fff solid;
     box-sizing: border-box;
     position: relative;
-    z-index: 5;
 
     &:hover {
       opacity: 0.8;

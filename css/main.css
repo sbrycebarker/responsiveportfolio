@@ -204,15 +204,13 @@ main {
   grid-template-columns: repeat(4, 1fr);
   position: relative;
   text-align: center;
-  box-sizing: border-box;
-  z-index: 5; }
+  box-sizing: border-box; }
   .projects img {
     width: 100%;
     height: auto;
     border: 4px #fff solid;
     box-sizing: border-box;
-    position: relative;
-    z-index: 5; }
+    position: relative; }
     .projects img:hover {
       opacity: 0.8;
       border-color: black;
