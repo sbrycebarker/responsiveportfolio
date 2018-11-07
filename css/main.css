@@ -218,7 +218,6 @@ main {
       box-sizing: border-box; }
   .projects .details {
     width: 100%;
-    height: 100%;
     box-sizing: border-box;
     position: relative;
     z-index: -5;
