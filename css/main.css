@@ -200,8 +200,8 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 15px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 75px;
+  grid-template-columns: repeat(5, 2fr);
   position: relative;
   text-align: center;
   box-sizing: border-box; }
@@ -220,7 +220,6 @@ main {
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    z-index: -5;
     border: 1px solid black;
     color: black; }
 
